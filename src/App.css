@@ -1,0 +1,11 @@
+#root {
+  margin: 0 auto;
+  display: flex;
+  background-color: white;
+  text-align: center;
+}
+
+body {
+  margin: 0;
+}
+
