@@ -32,7 +32,7 @@ const App = () => {
 
   const FlashcardList = [
     {
-      color: "lightgreen",
+      color: "green",
       name: "Golden Retriver",
       img: goldenretriever,
       alt: "image failure",
