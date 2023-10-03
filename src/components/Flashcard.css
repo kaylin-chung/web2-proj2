@@ -20,18 +20,15 @@
   }
 
   .flashcard-item .flipped .back {
-    position: absolute;
-  width: 100%;
-  height: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 1.5rem;
-  color: #333;
-  border-radius: 10px;
-  backface-visibility: hidden;
-  transform: rotateY(180deg);
-  z-index: 1;
+    transform: rotateY(180deg);
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    color: #333;
+    border-radius: 10px;
+    backface-visibility: hidden; 
 }
   
   .flashcard-item .front {
