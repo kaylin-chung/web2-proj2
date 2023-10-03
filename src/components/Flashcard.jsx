@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "./Flashcard.css";
 
 const Flashcard = ({ flashcard }) => {
-  const [isFlipped, setFlipped] = useState(true);
+  const [isFlipped, setFlipped] = useState(false);
 
   const handleFlipped = () => {
     setFlipped(!isFlipped);
