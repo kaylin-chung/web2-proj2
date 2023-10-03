@@ -1,21 +1,32 @@
+import React, { useState } from "react";
 import "./Flashcard.css";
-import { useState } from "react";
 
-const Flashcard = ({ props }) => {
+const Flashcard = ({ flashcard }) => {
   const [isFlipped, setFlipped] = useState(false);
+
   const handleFlipped = () => {
     setFlipped(!isFlipped);
   };
+
   return (
     <div
-      className={`flashcard-item ${isFlipped ? "flipped" : ""}` + props.color}
+      className={`flashcard-item ${isFlipped ? "flipped" : ""} ${
+        flashcard.color
+      }`}
       onClick={handleFlipped}
     >
-      <div className="flashcard-front">
-        <img src={props.img} alt={props.alt} />
+      <div className="front">
+        <div className="flashcard-image-container">
+          <img
+            className="flashcard-image"
+            src={flashcard.img}
+            alt={flashcard.alt}
+          />
+        </div>
       </div>
-      <div className="flashcard-back">
-        <h2>{props.name}</h2>
+
+      <div className="back">
+        <h2>{flashcard.name}</h2>
       </div>
     </div>
   );

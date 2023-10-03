@@ -7,7 +7,7 @@ import afghanhound from "./images/afghanhound.jpeg";
 import bassethound from "./images/bassethound.jpeg";
 import bedlingtonterrier from "./images/bedlingtonterrier.jpeg";
 import bichonfrise from "./images/bichonfrise.jpeg";
-import bordercollie from "./images/bordercollie.jpeg";
+import bordercollie from "./images/bordercollie.webp";
 import bostonterrier from "./images/bostonterrier.jpeg";
 import doberman from "./images/doberman.jpeg";
 import goldenretriever from "./images/goldenretriever.jpeg";
