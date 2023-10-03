@@ -30,7 +30,7 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented required features:
 
-<img src='file:///private/var/folders/ck/srkrnztj0yb41ghhwdv04kv00000gn/T/9e2d49172060c3913bf23d606ee7470e/Kapture%202023-10-03%20at%2000.32.59.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://www.canva.com/design/DAFwL5mnsnc/UuWo4p0LZj5y3NIG5-p-SA/edit?utm_content=DAFwL5mnsnc&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 <!-- Replace this with whatever GIF tool you used! -->
 
