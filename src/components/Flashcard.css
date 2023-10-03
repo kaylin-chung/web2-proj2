@@ -8,16 +8,18 @@
     margin: 20px;
     transition: transform 0.6s;
     position: relative;
+
+    .front .flashcard-image {
+      width: 300px; 
+      height: 200px;
+      max-height: 300px; 
+      object-fit: cover; 
+      border: 2px solid #ccc; 
+      border-radius: 8px;
+    }
+    
   }
-  
-  .front .flashcard-image {
-    width: 300px; 
-    height: 200px;
-    max-height: 300px; 
-    object-fit: cover; 
-    border: 2px solid #ccc; 
-    border-radius: 8px;
-  }
+
 
   .flashcard-item .front {
     position: absolute;
