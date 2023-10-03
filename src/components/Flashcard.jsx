@@ -16,17 +16,14 @@ const Flashcard = ({ flashcard }) => {
       onClick={handleFlipped}
     >
       <div className="front">
-        <div className="flashcard-image-container">
-          <img
-            className="flashcard-image"
-            src={flashcard.img}
-            alt={flashcard.alt}
-          />
+        <div className="flashcard-image">
+          <img src={flashcard.img} alt={flashcard.alt} />
         </div>
       </div>
-
       <div className="back">
-        <h2>{flashcard.name}</h2>
+        <div className="flashcard-content">
+          <h2>{flashcard.name}</h2>
+        </div>
       </div>
     </div>
   );

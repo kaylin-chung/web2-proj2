@@ -32,7 +32,7 @@ const App = () => {
 
   const FlashcardList = [
     {
-      color: "green",
+      color: "lightgreen",
       name: "Golden Retriver",
       img: goldenretriever,
       alt: "image failure",
@@ -103,7 +103,7 @@ const App = () => {
     <div className="App">
       <h2>Puppy Puzzle</h2>
       <h4>Can You Guess the Breed?</h4>
-      <h5>Number of Cards: 10</h5>
+      <h5>Number of Cards: 11</h5>
       <Flashcard flashcard={FlashcardList[index]} />
       <button className="arrow-button" onClick={handlePrevClick}>
         <i className="fa fa-arrow-left"></i>{" "}
